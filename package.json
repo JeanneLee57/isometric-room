@@ -1,0 +1,25 @@
+{
+  "name": "three-js-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^19.1.6",
+    "@types/suncalc": "^1.9.2",
+    "typescript": "~5.8.3",
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.6.0",
+    "@react-three/fiber": "^9.2.0",
+    "@types/three": "^0.178.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "three": "^0.178.0"
+  }
+}
